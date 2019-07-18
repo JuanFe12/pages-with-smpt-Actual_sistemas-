@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/acerca.css">
+    <link rel="stylesheet" href="css/serivicio.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+</head>
+<style>
+  .navbar{
+    position:fixed;
+    width: 100%;
+    left:0;
+    z-index:10;
+    }
+    html{
+    scroll-behavior: smooth;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  " >
+        <a class="navbar-brand" href="#inicio"><img src="imagenes/logo (1).png" class="logonav" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse row  " id="navbarNav">
+          <ul class="navbar-nav container">
+            <li class="nav-item   item" >
+              <a class=" nav-link " href="#acerca">Acerca</a>
+            </li>
+            <li class="nav-item  item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item  item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item  item ">
+              <a class="nav-link " href="#contacto" >Contacto</a>
+            </li>
+          </ul>
+        </div>
+  </nav>
+
+   <div>
+       <img src="imagenes/banner.jpg" class="Imagenprincipal">
+   </div>
+       <div class="parrafoprincipal">
+           <p id="inicio"> Bienvenido a <b> Actual Sistemas </b>, todo lo que buscas en <br> soluciones informáticas.</p>
+       </div>
+       <div class="container">
+                <div class="acerca">
+                        <h1  id="acerca">Acerca</h1>
+                        <div class="imagen col-md-6 col-sm-12">
+                                <img src="imagenes/about-circles.png" class="imgacerca">
+                        </div>
+                        <div class="mision col-md-5 col-sm-12">
+                                  <h2>Misión</h2>
+                                  <p>En ACTUAL SISTEMAS trabajamos para ayudar a las organizaciones, las personas, y la sociedad a ser mejores, 
+                                    prestando nuestros servicios en el área de informática, permitiendo a nuestros clientes la continuidad operacional 
+                                    por medio de  soluciones puntuales e innovadoras, atención personalizada y rápida respuesta a sus contingencias, 
+                                    sustentado por un equipo técnico y profesional ágil, flexible y comprometido.
+                                  </p>
+                        </div>
+                        <div class="Visión col-md-5 col-sm-12" >
+                                <h2>Visión</h2>
+                                <p>
+                                        En ACTUAL SISTEMAS trabajamos para ayudar a las organizaciones, las personas, y 
+                                        la sociedad a ser mejores, prestando nuestros servicios en el área de informática, 
+                                        permitiendo a nuestros clientes la continuidad operacional por medio de 
+                                        soluciones puntuales e innovadoras, atención personalizada y rápida respuesta a 
+                                        sus contingencias, sustentado por un equipo técnico y 
+                                        profesional ágil, flexible y comprometido.
+                                </p>
+                      </div>
+
+                      <div class="valores" >
+                            <h2 class="col-md-6 col-sm-12 titulo">Valores</h2>
+                                <p class="parrafovalores">Nuestros valores están enfocados al sostenimiento de una estrategia de crecimiento y 
+                                  diferenciación en el servicio. Éstos son: 
+                                </p>
+                      </div>
+                      <div class="container">
+                        <ul class="listauno col-md-6 col-sm-12">
+                            <li>Trabajo en equipo: Promoviendo y apoyando un equipo homogéneo y apropiado.</li>
+                            <li>Colaboración: Nos integramos con nuestros clientes para mejorar día a día la calidad y nivel de satisfacción de necesidades.</li>
+                            <li>Servicio: Cumplimos con nuestros compromisos y nos hacemos responsables de nuestro rendimiento en todas nuestras decisiones y acciones, basándonos en una gran voluntad de servicio por y para nuestros clientes.</li>
+                            <li>Innovación y mejora continua: Nos damos cuenta de la importancia de mirar hacia el futuro, por tanto, ofrecemos lo último del mercado para dar un apoyo y servicio óptimo a nuestros clientes.</li>        
+                        </ul>
+                        <ul class="listados col-md-6 col-sm-12">
+                            <li>Transparencia: El compromiso del personal no sería posible sin una absoluta transparencia en los procesos.</li>
+                            <li>Integridad y Ética: Promovemos un compromiso social.</li>
+                            <li>Modelo de dirección participativo: El personal de la empresa asume responsabilidades y participa en el proceso de toma de decisiones.</li>
+                            <li>Formación: La empresa se preocupa de la formación continua en todos los ámbitos.</li>   
+                        </ul>
+                      </div>  
+
+
+                </div> 
+   
+      </div>
+      <div class="servicio">
+          <div  style="width: 50%;">
+            <h1 class="h11" id="servicios">Servicio</h1>
+          </div>
+          <div class="container">
+              <img src="imagenes/mantenimiento.png" class="imagenServicio col-md-6 col-sm-12">
+              <h4 class="col-md-6 col-sm-12 parrafoh4">Venta, mantenimiento y reparación de equipos informáticos</h4>
+              <p class="col-md-6 col-sm-12 parrafop">Prestamos un servicio garantizado en mantenimiento preventivo y 
+                  correctivo tanto de hardware como de software; en equipos de 
+                  escritorio y portátiles, con precios sorprendentes. <br><br>
+                  
+                  Gran variedad de repuestos y equipos informáticos con precios 
+                  competitivos.</p>
+          </div>
+          <div class="container">
+              <img src="imagenes/feature2.png" class="col-md-6 col-sm-12 contentservicios2">
+              <h4 class="col-md-6 col-sm-12 contentsubservicios">Instalación, soporte y mantenimiento de redes  estructuradas y servidores</h4>
+              <p class="col-md-6 col-sm-12 parrafocontentservicios">Instalación, soporte y mantenimiento de redes estructuradas, bajo 
+                  normas y estándares que garantizan la comunicación entre sus 
+                  componentes; creando un entorno de trabajo ágil y apropiado. 
+                  Instalamos y configuramos servidores y/o servicios, ya sea sobre 
+                  sistemas operativos Windows o Linux.</p>
+
+          </div>
+          <div class="container">
+              <img src="imagenes/feature3.png" class="col-md-6 col-sm-12 contentservicios3">
+              <h4 class="col-md-6 col-sm-12 contentsubservicios3">Desarrollo de páginas y aplicaciones web</h4>
+              <p class="col-md-6 col-sm-12 parrafocontentservicios3">
+                  Desarrollo de páginas y aplicaciones web con diseños adaptables a 
+                  diferentes resoluciones de pantalla, por lo que no tendrá que 
+                  preocuparse si su página web o aplicación se abre un en dispositivo 
+                  móvil o equipo de escritorio. Utilizamos tecnologías de punta para el 
+                  desarrollo como son Html5, NodeJS, Phyton y PHP</p>
+
+          </div>
+          <div class="container">
+              <img src="imagenes/feature4.png" class="col-md-6 col-sm-12 contentservicios4">
+              <h4 class="col-md-6 col-sm-12 contentsubservicios4">
+                  Configuración, instalación de aplicaciones y 
+                  Hard Reset de Tablets y celulares</h4>
+              <p class="col-md-6 col-sm-12 parrafocontentservicios4">
+                  Si tienes inconvenientes con una Tablet y/o celular, cuenta con 
+                  nosotros que juntos lo resolveremos.</p>
+
+          </div>
+          <div class="container">
+              <img src="imagenes/feature5.png" class="col-md-6 col-sm-12 contentservicios5">
+              <h4 class="col-md-6 col-sm-12 contentsubservicios5">
+                  Mecanismos de seguridad</h4>
+              <p class="col-md-6 col-sm-12 parrafocontentservicios5">
+                  Instalación, configuración, venta y arreglo de equipos de seguridad. 
+                  Te ayudamos a proteger todo lo que más quieres.</p>
+
+          </div>
+          <div class="container">
+            <div class="containerbutton">
+                <p class="col-md-6 col-sm-12 text">¿Listo para iniciar su proyecto?</p>
+                <button type="submit" class="col-md-6 col-sm-12 click">Click para contactarnos</button>    
+            </div>
+          </div><br><br>
+          <div class="productos">
+            <div class="container">
+              <center>
+                <h1 id="productos">Productos</h1>
+              </center>
+              <img src="Imagenes/nubefac1.jpeg" class="nubefac1">
+              <img src="Imagenes/nubefac2.jpeg" class="nubefac1">
+              <img src="Imagenes/nubefac3.jpeg" class="nubefac1">
+              <img src="Imagenes/nubefac4.jpeg" class="nubefac1">
+            </div>
+          </div><br>
+          <div class="footer">
+            <div class="container">
+                <img  src="Imagenes/logo (1).png" class="logofooter"><br><br>
+                <p id="contacto" class="parrafofooter col-md-3">
+                    Transv. 79C No 80-86 Oficina 201
+                    Medellín, Antioquia. Colombia,</p>
+                <p class="parrafofooter col-md-3">
+                   +57 4 301-7376449 <br>
+                   +57 4 314-8500658</p>
+                   <div class="formulario">
+                    <form action="enviar.php" method="POST">
+                      <h4 class="formfooter">contactenos</h4>
+                      <input type="text" class="form-control col-md-4" style=" background-color: #252b34; border-color: gray;"  id="exampleInputNombre1" name="nombre"  placeholder="Nombre"><br>
+                      <input type="email" class="form-control col-md-4" style=" background-color: #252b34; border-color: gray;" id="exampleInputEmail1" name="email" placeholder="Enter email"><br>
+                      <input type="text" class="form-control col-md-4" style=" background-color: #252b34; border-color: gray;" id="exampleInputciudad1" name="ciudad"  placeholder="Ciudad"><br>
+                      <textarea class="form-control col-md-4 mensaje"style=" background-color: #252b34; border-color: gray;" placeholder="Mensaje" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea> 
+                      <div class="g-recaptcha " data-sitekey="6LfJS6gUAAAAABab3RFO4DEcFpfu_M3GudIZyqLT"></div><br>
+                      <button class="enviar" type="submit">Enviar</button><br><br>
+                    </form>
+                   </div>
+                   <b><hr style="background-color: #252b34;"></b>
+                   <span class="copy">&copy; <small> 2014-2018 Actual Sistemas</small></span>
+                   <a href="https://www.facebook.com/actualsistemas?fref=ts"><img src="imagenes/facebook.png" class="social-network"></a> 
+
+            </div>
+          </div>
+        </div>
+          
+      </div>
+<div>
+</body>
+</html>

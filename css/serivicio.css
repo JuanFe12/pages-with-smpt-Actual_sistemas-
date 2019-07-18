@@ -1,0 +1,112 @@
+.servicio{
+    z-index: -1;
+    height:3000px;
+    background-color: #f7f7f7;
+}
+.logonav{
+    width: 260px;
+}
+.imagenSERVICIO{
+    width: 400px;
+}
+
+.parrafoservicio{
+    float: right;
+    top: -310px;
+}
+
+.contenidoservicio{
+    margin-left: 560px;
+    top: -300px;
+}
+
+.imagenservicio{
+    float: right;
+    width:500px;
+}
+
+.servicio{
+    background-color: #f7f7f7;
+}
+.h11{
+    margin-left: 95%;
+}
+
+.imagenServicio{
+    width: 400px;
+    top: 80px;
+}
+
+.parrafoh4{
+    float: right;
+    top: -300px;
+}
+.parrafop{
+    margin-left: 555px;
+    top: -250px;
+}
+
+.contentservicios2{
+    float: right;
+}
+.contentsubservicios{
+    top: 60px;
+}
+.parrafocontentservicios{
+    top: 70px;
+}
+.contentsubservicios3{
+    float: right;
+}
+.parrafocontentservicios3{
+    margin-left: 550px;
+    top: 50px;
+}
+.contentservicios3{
+    top: 300px;
+}
+.contentservicios4{
+    float: right;
+    top: 250px; 
+}
+.contentsubservicios4{
+    top: 350px;
+}
+.parrafocontentservicios4{
+    top: 400px;
+}
+
+.contentservicios5{
+    top: 600px;
+}
+
+.contentsubservicios5{
+    float: right;
+    top: 300px;
+}
+
+.parrafocontentservicios5{
+    margin-left: 550px;
+    top: 350px;
+}
+
+.containerbutton{
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 0px rgba(26, 26, 26, 0.15);
+    margin-top: 600px;
+}
+.click{
+    border: none;
+    border-radius: 50px;
+    background-color: #92b751;
+    color: #ffff;
+    margin-left: 420px;
+    top: -30px;
+}
+
+.text{
+    top: 30px;
+    margin-left: 100px;
+    height: 40px;
+}

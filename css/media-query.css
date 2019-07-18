@@ -1,0 +1,432 @@
+@media only screen and (max-width: 1024px ) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        }
+    .logonav{
+        width: 270px!important;
+    }
+    .Imagenprincipal{
+        flex-wrap: wrap;
+        width: 200px;
+        height: 500px!important;
+    }
+    .parrafoprincipal{
+        font-size: 10px;
+        margin-top:-250px!important;
+    }
+    .acerca{
+     margin-top: 250px!important;
+
+    }
+
+    .imgacerca{
+     width: 520px!important;
+    }
+
+    .mision{
+        margin-top: 10px;
+        margin-right: -700px;
+    }
+
+    .valores{
+        text-align: justify;
+        letter-spacing: none;
+        margin-left: 15px!important;
+    }
+    .titulo{
+        margin-left: -15px!important;
+    }
+
+    .listados{
+        top: -325px!important;
+    }
+    .h11{
+        margin-left:430px!important;
+    }
+    .servicio{
+        margin-top: 80px;
+    }
+    .item{
+        margin-left: 10px!important;
+    }
+    .imagenServicio{
+        width: 400px!important;
+        top: 70px!important;
+    }
+    
+    .parrafoh4{
+        top: -200px!important;
+    }
+    .parrafop{
+        margin-left: 460px!important;
+        top: -150px!important;
+    }
+
+    .contentservicios2{
+        margin-top: -100px!important;
+        width: 300px;
+    }
+    .contentsubservicios{
+        top: -100px!important;
+    }
+
+    .parrafocontentservicios{
+        top: -50px!important;
+    }
+
+    .contentsubservicios3{
+        top: -270px;
+    }
+    .contentservicios3{
+        top:110px!important;
+    }
+    .parrafocontentservicios3{
+        margin-left: 460px!important;
+        top: -220px!important;
+        text-align: justify;
+    }
+    .contentsubservicios4{
+        top: 50px!important;
+    }
+
+    .contentservicios4{
+        top: 20px!important;
+    }
+    .parrafocontentservicios4{
+        top: 90px!important;
+        text-align: justify;
+    }
+    .contentsubservicios5{
+        top: -10px!important;
+    }
+    
+    .contentservicios5{
+        top: 230px!important;
+    }
+    .parrafocontentservicios5{
+        top: 50px!important;
+        margin-left: 470px!important;
+        text-align: justify;
+    }
+    .containerbutton{
+        margin-top: 280px!important;
+        height: 90px!important;
+        width: 92%!important;
+        
+    }
+
+    .text{
+        margin-left: 150px!important;
+        top: 30px!important;
+    }
+
+    .click{
+        margin-left: 460px!important;
+        top: -23px!important;
+        width: 200px!important;
+    }
+    .nubefac1{
+        padding: 5px!important;
+        width: 200PX!important;
+    }
+    .g-recaptcha{
+       margin-left: 160px!important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        }
+    .logonav{
+        width: 270px!important;
+    }
+    .Imagenprincipal{
+        flex-wrap: wrap;
+        width: 200px;
+        height: 300px!important;
+    }
+    .parrafoprincipal{
+        font-size: 10px;
+        margin-top:-180px!important;
+    }
+    .acerca{
+     margin-top: 150px!important;
+
+    }
+
+    .imgacerca{
+     width: 320px!important;
+    }
+
+    .mision{
+        margin-top: 300px;
+        margin-right: -800px;
+    }
+
+    .valores{
+        text-align: justify;
+        letter-spacing: none;
+        margin-left: 15px!important;
+    }
+    .titulo{
+        margin-left: -15px!important;
+    }
+
+    .listados{
+        top: 15px!important;
+    }
+    .h11{
+        margin-left: 80px!important;
+    }
+    .servicio{
+        margin-top: 410px;
+        height: 3200px!important;
+    }
+    .imagenServicio{
+        width: 300px!important;
+        top: 105px!important;
+    }
+    
+    .parrafoh4{
+        top: -200px!important;
+    }
+    .parrafop{
+        margin-left: 2px!important;
+        top: 20px!important;
+    }
+
+    .contentservicios2{
+        margin-top: 170px!important;
+        width: 300px;
+    }
+    .contentsubservicios{
+        top: -360px!important;
+    }
+
+    .parrafocontentservicios{
+        top: -50px!important;
+    }
+
+    .contentsubservicios3{
+        top: -270px;
+    }
+    .contentservicios3{
+        top:110px!important;
+    }
+    .parrafocontentservicios3{
+        margin-left: -5px!important;
+        margin-top: 400px!important;
+        text-align: justify;
+    }
+    .contentsubservicios4{
+        top: -400px!important;
+    }
+
+    .contentservicios4{
+        top: -20px!important;
+    }
+    .parrafocontentservicios4{
+        top: -25px!important;
+        text-align: justify;
+    }
+    .contentsubservicios5{
+        top: -150px!important;
+    }
+    
+    .contentservicios5{
+        top: 100px!important;
+    }
+    .parrafocontentservicios5{
+        top: 100px!important;
+        margin-left: -5px!important;
+        text-align: justify;
+    }
+    .containerbutton{
+        margin-top: 160px!important;
+        height: 90px!important;
+        width: 92%!important;
+        
+    }
+
+    .text{
+        margin-left: 40px!important;
+        top: 10px!important;
+    }
+
+    .click{
+        margin-left: 60px!important;
+        top: -10px!important;
+        width: 200px!important;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+    }
+    .formulario{
+        margin-left: -20px!important;
+        margin-top: 30px!important;
+    }
+    .mensaje{
+        margin-left: 1px!important;
+        margin-top: 180px!important;
+
+    }
+    .g-recaptcha{
+     margin-left:20px!important;
+
+    }
+
+    .copy{
+        
+    }
+    .enviar{
+        margin-left: 10px!important;
+    }
+
+}
+
+@media only screen and (max-width:360px) {
+    .navbar{
+        width: 100%;
+        display: flex;
+        }
+    .logonav{
+        width: 215px!important;
+    }
+    .Imagenprincipal{
+        flex-wrap: wrap;
+        width: 200px;
+        height: 300px!important;
+    }
+    .parrafoprincipal{
+        font-size: 10px;
+        margin-top:-210px!important;
+    }
+    .acerca{
+     margin-top: 150px!important;
+
+    }
+
+    .imgacerca{
+     width: 320px!important;
+    }
+
+    .mision{
+        margin-top: 300px;
+        margin-right: -800px;
+    }
+
+    .valores{
+        text-align: justify;
+        letter-spacing: none;
+        margin-left: 15px!important;
+    }
+    .titulo{
+        margin-left: -15px!important;
+    }
+
+    .listados{
+        top: 15px!important;
+    }
+    .h11{
+        margin-left: 80px!important;
+    }
+    .servicio{
+        margin-top: 410px;
+        height: 3300px!important;
+    }
+    .imagenServicio{
+        width: 300px!important;
+        top: 105px!important;
+    }
+    
+    .parrafoh4{
+        top: -200px!important;
+    }
+    .parrafop{
+        margin-left: 2px!important;
+        top: 20px!important;
+    }
+
+    .contentservicios2{
+        margin-top: 170px!important;
+        width: 300px;
+    }
+    .contentsubservicios{
+        top: -360px!important;
+    }
+
+    .parrafocontentservicios{
+        top: -50px!important;
+    }
+
+    .contentsubservicios3{
+        top: -270px;
+    }
+    .contentservicios3{
+        top:110px!important;
+    }
+    .parrafocontentservicios3{
+        margin-left: -5px!important;
+        text-align: justify;
+    }
+    .contentsubservicios4{
+        top: -370px!important;
+    }
+
+    .contentservicios4{
+        top: 20px!important;
+    }
+    .parrafocontentservicios4{
+        top: -60px!important;
+        text-align: justify;
+    }
+    .contentsubservicios5{
+        top: -190px!important;
+    }
+    
+    .contentservicios5{
+        top: 50px!important;
+    }
+    .parrafocontentservicios5{
+        top: 40px!important;
+        margin-left: -5px!important;
+        text-align: justify;
+    }
+    .containerbutton{
+        margin-top: 100px!important;
+        height: 90px!important;
+        width: 92%!important;
+        
+    }
+
+    .text{
+        margin-left: 10px!important;
+        top: 10px!important;
+    }
+
+    .click{
+        margin-left: 35px!important;
+        top: -10px!important;
+        width: 200px!important;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+    }
+    .logofooter{
+        width: 250px!important;
+    }
+    .formulario{
+        margin-left: -20px!important;
+        margin-top: 30px!important;
+    }
+    .g-recaptcha{
+        margin-left:1px!important;
+   
+       }
+   
+}

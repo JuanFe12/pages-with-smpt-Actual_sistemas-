@@ -1,0 +1,57 @@
+.footer{
+    background-color: #252b34;
+    padding: 15px;
+}
+
+.logofooter{
+    width: 300px;
+}
+
+.parrafofooter{
+    color: #fff;
+}
+
+.formfooter{
+    color: #fff;
+}
+.formulario{
+    margin-left: 500px;
+    margin-top: -195px;
+}
+.form-control{
+    background-color: #f7f7f7;
+}
+.mensaje{
+    margin-left: 250px;
+    top: -183px;
+}
+.g-recaptcha{
+    margin-left: 250px;
+    margin-top: -150px;
+    width: 300px;
+}
+.enviar{
+    border: none;
+    border-radius: 50px;
+    background: gray;
+    width:90px;
+    color: #fff;
+    margin-left: 365px;
+}
+
+.enviar:hover{
+    background-color: #92b751;
+}
+
+.copy{
+    color: #fff;
+}
+.social-network{
+    z-index: -1;
+    float: right;
+}
+.social-network:hover{
+    z-index: 1;
+    background-color: gray;
+    border-radius: 50px;
+}

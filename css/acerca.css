@@ -1,0 +1,38 @@
+.acerca{
+    margin-top: 600px;
+    text-align: center;
+}
+.imgacerca{
+    float: right;
+    width: 600px;
+}
+
+.mision{
+    text-align: justify;
+    margin-right: 100px;
+}
+.imagen{
+    float: right;
+}
+
+.Visión{
+    text-align: justify;
+}
+
+.valores{
+    margin-left: -195px;
+}
+
+.titulo{
+    margin-left: -65px;
+}
+
+.listauno{
+    text-align: justify;
+}
+.listados{
+    text-align: justify;
+    top: -280px;
+    float: right;
+}
+
