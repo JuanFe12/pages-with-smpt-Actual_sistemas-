@@ -1,60 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>Formulario</title> <!-- Aquí va el título de la página -->
-
-</head>
-
-<body>
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$Nombre = $_POST['nombre'];
-$Email = $_POST['email'];
-$Ciudad = $_POST['ciudad'];
-$Mensaje = $_POST['mensaje'];
-
-if ($Nombre=='' || $Email=='' || $Ciudad =='' || $Mensaje==''){ // Si falta un dato en el formulario mandara una alerta al usuario.
-
-echo "<script>alert('Los campos marcados con * son obligatorios');location.href ='javascript:history.back()';</script>";
-
-}else{
+$Nombre = $_POST["nombre"];
+$Email  = $_POST["email"];
+$Ciudad = $_POST["ciudad"];
+$Mensaje = $_POST["mensaje"];
 
 
-    require("class.phpmailer.php"); // Requiere PHPMAILER para poder enviar el formulario desde el SMTP de google
-    $mail = new PHPMailer();
+$body= "Nombre: " . $Nombre . "<br>Mensaje: " . $Mensaje . "<br>Ciudad: " . $Ciudad . "<br>Correo: ". $Email;
 
-    $mail->From     = $Email;
-    $mail->FromName = $Nombre; 
-    $mail->AddAddress("aprendiz_ti@vcb.com.co"); // Dirección a la que llegaran los mensajes.
+include 'phpmailer/Exception.php';
+include 'phpmailer/PHPMailer.php';
+include 'phpmailer/SMTP.php';
 
-// Aquí van los datos que apareceran en el correo que reciba
+$mail = new PHPMailer(true);
+try {
+    //Server settings
+    $mail->SMTPDebug = 0;                                       // Enable verbose debug output
+    $mail->isSMTP();                                            // Set mailer to use SMTP
+    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'juanfelipeariastabares007@gmail.com';                     // SMTP username
+    $mail->Password   = '*';                               // SMTP password
+    $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
+    $mail->Port       = 587;                                    // TCP port to connect to
 
-    $mail->WordWrap = 50; 
-    $mail->IsHTML(true);     
-    $mail->Subject  =  "Contacto"; // Asunto del mensaje.
-    $mail->Body     =  "nombre: $Nombre \n<br />". // Nombre del usuario
-    "email: $Email \n<br />".    // Email del usuario
-    "ciudad: $Ciudad \n<br />".    // Ciudad del usuario
-    "menasje: $Mensaje \n<br />"; // Mensaje del usuario
+    //Recipients
+    $mail->setFrom('juanfelipeariastabares007@gmail.com', $Nombre);
+    $mail->addAddress('juanfelipeariastabares007@gmail.com', $Email);     // Add a recipient
 
-// Datos del servidor SMTP, podemos usar el de Google, Outlook, etc...
+    // Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = $Mensaje;
+    $mail->Body    = $body;
+    $mail ->Charset = 'UTF-8';
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-    $mail->IsSMTP(); 
-    $mail->Host = "ssl://smtp.gmail.com:465";  // Servidor de Salida. 465 es uno de los puertos que usa Google para su servidor SMTP
-    $mail->SMTPAuth = true; 
-    $mail->Username = "aprendiz_ti@vcb.com.co";  // Correo Electrónico
-    $mail->Password = "asdqwe123"; // Contraseña del correo
-
-    if ($mail->Send())
-    echo "<h1> Enviado </h1>";
-    else
-    echo "<h1> Enviado </h1>";
-
+    $mail->send();
+    echo 'Se envio correctamente';
+} catch (Exception $e) {
+    echo "Hubo un error al enviar el mensaje: {$mail->ErrorInfo}";
 }
-
 ?>
 </body>
 </html>
